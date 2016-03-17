@@ -1,0 +1,56 @@
+/*
+ * file    : index.css
+ * author  : chao.Radish@gmail.com
+ */
+
+@charset "utf-8";
+.banner{width:100%; margin:0 auto; overflow:hidden; position:relative;}
+.banner ul{display:none; width:100%; overflow:hidden; position:relative;}
+.banner ul li{width:100%; overflow:hidden; position:absolute; left:0; top:0;}
+.banner ul li .img_box{width:100%; overflow:hidden; position:relative;}
+.banner ul li .img_box img{height:100%; position:absolute; left:50%; top:0;}
+.banner a.pages{display:block; width:36px; height:73px; margin-top:-36px; background:url(../Img/arrow.png) no-repeat; overflow:hidden; position:absolute; top:50%; z-index:99999;}
+.banner a.prev{background-position:0px 0px; left:38px;}
+.banner a.prev:hover{background-position:0px -73px;}
+.banner a.next{background-position:-36px 0px; right:38px;}
+.banner a.next:hover{background-position:-36px -73px;}
+
+.menu{width:100%; height:63px; margin:0 auto; background:#323232;}
+.menu li{float:left; position:relative;}
+.menu li a.main{display:block; height:51px; line-height:21px; color:#fff; font-size:16px; padding-top:12px; border-right:1px solid #414141;}
+.menu li a.main p{color:#646464; font-size:12px;}
+.menu li a.on,
+.menu li a.main:hover{text-decoration:none; background:#00382f;}
+.menu li a.on p,
+.menu li a.main:hover p{color:#fff;}
+.menu li div.sub{display:none; width:100%; padding:13px 0; background:url(../Img/menu_bg_index.png) repeat; overflow:hidden; position:absolute; left:0; z-index:999;}
+.menu li div.sub a.sub{display:block; width:100%; height:48px; line-height:48px; color:#ffc292; font-size:14px; overflow:hidden;}
+.menu li div.sub a.sub:hover{color:#fff; text-decoration:none; background:url(../Img/menu_hover_bg.png) repeat;}
+.menu li a.last{border-right:0;}
+
+.photo{width:100%; height:1800px; margin:0 auto; overflow:hidden; position:relative;}
+.photo .main{background:#000; overflow:hidden; position:absolute; top:0;}
+.photo .main a:hover{text-decoration:none;}
+.photo .main .bg{width:100%; height:66px; background:#000; opacity:0.68; filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity:0.8; overflow:hidden; position:absolute; left:0; bottom:0;}
+.photo .main:hover .bg{ background:#005245;opacity:1;filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; }
+.photo .main .cont{width:100%; height:57px; line-height:23px; text-align:left; padding-top:9px; overflow:hidden; position:absolute; left:0; bottom:0;}
+.photo .main .cont h2{color:#fff; font-size:16px; padding:0 24px; cursor:pointer;}
+.photo .main .cont p{color:#c9c7c7; font-size:12px; padding:0 24px; cursor:pointer;}
+.photo .box_01{width:50%; left:0;}
+.photo .box_02{width:50%; left:50%;}
+.photo .box_03{width:25%; left:50%;}
+.photo .box_04{width:25%; left:75%;}
+.photo .box_05{width:25%; left:0;}
+.photo .box_06{width:50%; left:25%;}
+.photo .box_07{width:50%; left:0;}
+.photo .box_08{width:25%; left:0;}
+.photo .box_09{width:25%; left:25%;}
+.photo .box_10{width:50%; left:50%;}
+
+.link{width:100%; height:80px; color:#959595; margin:0 auto; background:#141414 url(../Img/link_bg.gif) no-repeat center bottom;}
+.link .link_box{width:642px; height:80px; margin:0 auto;}
+.link span{width:35px; height:15px; line-height:15px; text-align:center; margin-top:24px; float:left; overflow:hidden;}
+.link a.sub{height:15px; line-height:15px; color:#959595; margin-top:24px; float:left; overflow:hidden;}
+.link a.sub:hover{color:#ffc292; text-decoration:none;}
+.link div.sub{height:15px; line-height:15px; color:#959595; margin-top:24px; padding-right:23px; background:url(../Img/link_icon.gif) no-repeat right top; float:left; position:relative; cursor:pointer;}
+.link div.on{color:#ffc292; background-position:right -15px;}

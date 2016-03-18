@@ -39,7 +39,7 @@
     </dl>
     <dl class="dl_list dl_3">
       <dt class="dl_open"><span class="expend_icon"></span><a href="javascript:;">活动管理</a></dt><!--打开状态替换close为open-->
-      <dd><a href="javascript:;" target="rightFrame">班级违纪排名</a></dd>
+      <dd><a href="index.php?r=nav" target="rightFrame">导航栏</a></dd>
       <dd><a href="javascript:;" target="rightFrame">阶段违纪对比</a></dd>
       <dd><a href="javascript:;" target="rightFrame">违纪类型分析</a></dd>
       <dd><a href="javascript:;" target="rightFrame">互查违纪个数</a></dd>
